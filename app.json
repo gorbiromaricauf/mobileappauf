@@ -1,0 +1,68 @@
+{
+   "name": "VeilleAUF",
+   "indexHtmlPath": "index.html",
+   "url": null,
+   "js": [
+      {
+         "path": "touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+         "update": "delta",
+         "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+         ],
+         "theme": "Default",
+         "path": "theme/sencha-touch-e47cf09b-65ce-41c2-9e1a-f6e052c12f2c.css",
+         "_architect_active_theme": true
+      },
+      {
+         "path": "mobile.css"
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "resources/images",
+      "resources/icons",
+      "resources/startup"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [],
+   "id": "f29f152d-d859-417c-b7fb-0bed0b24b732",
+   "_architect": {
+      "_comment": "Please don't edit. This is Architect data.",
+      "name": "VeilleAUF",
+      "css": [
+         {
+            "path": "mobile.css"
+         }
+      ],
+      "js": [],
+      "resources": [],
+      "requires": []
+   }
+}
