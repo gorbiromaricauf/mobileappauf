@@ -2,9 +2,9 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.phonegap.example"
-    version   = "1.0.3">
+    version   = "1.0.4">
 
-<name>Veille académique Asie Pacifique</name>
+<name>App Veille académique</name>
 
 <description>
 Application dévéloppée par le bureau Asie - Pacifique dans le but de promouvoir les actions universitaire dans le milieu francophone
